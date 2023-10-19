@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B3MiCKw9o8V0WvI85IZ07ZFuz8OKt0paw1KzQAWcMUk=",
+  "Hash": "E1DlB3IETU2t1DzRlyMWxKqbh6gpNkKns3AExeUyVOs=",
   "Source": "CMS_WebAPI",
   "BasePath": "_content/CMS_WebAPI",
   "Mode": "Default",
@@ -10,17 +10,51 @@
     {
       "Name": "CMS_WebAPI\\wwwroot",
       "Source": "CMS_WebAPI",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Cuu_8f185b52.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Classroom\\Avatars\\NguaVan_3e2996ef.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
+      "BasePath": "_content/CMS_WebAPI",
+      "RelativePath": "Classroom/Avatars/NguaVan_3e2996ef.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Classroom\\Avatars\\NguaVan_3e2996ef.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Classroom\\Avatars\\Tho_d2f42e13.jpg",
+      "SourceId": "CMS_WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
+      "BasePath": "_content/CMS_WebAPI",
+      "RelativePath": "Classroom/Avatars/Tho_d2f42e13.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Classroom\\Avatars\\Tho_d2f42e13.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Cuu_8f185b52.jpg",
+      "SourceId": "CMS_WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Student/Avatars/Cuu_8f185b52.jpg",
       "AssetKind": "All",
@@ -34,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Student\\Avatars\\Cuu_8f185b52.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Meo_803f1735.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Meo_803f1735.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Student/Avatars/Meo_803f1735.jpg",
       "AssetKind": "All",
@@ -51,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Student\\Avatars\\Meo_803f1735.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Meo_c316b16a.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Meo_c316b16a.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Student/Avatars/Meo_c316b16a.jpg",
       "AssetKind": "All",
@@ -68,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Student\\Avatars\\Meo_c316b16a.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Meo_c42ca58f.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Student\\Avatars\\Meo_c42ca58f.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Student/Avatars/Meo_c42ca58f.jpg",
       "AssetKind": "All",
@@ -85,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Student\\Avatars\\Meo_c42ca58f.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Teacher\\Avatars\\BoCanhCung_0fff9299.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Teacher\\Avatars\\BoCanhCung_0fff9299.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Teacher/Avatars/BoCanhCung_0fff9299.jpg",
       "AssetKind": "All",
@@ -102,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Teacher\\Avatars\\BoCanhCung_0fff9299.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Teacher\\Avatars\\Tho_5b8c2157.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Teacher\\Avatars\\Tho_5b8c2157.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Teacher/Avatars/Tho_5b8c2157.jpg",
       "AssetKind": "All",
@@ -119,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Teacher\\Avatars\\Tho_5b8c2157.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\Teacher\\Avatars\\Tho_a803950b.jpg",
+      "Identity": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\Teacher\\Avatars\\Tho_a803950b.jpg",
       "SourceId": "CMS_WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\wwwroot\\",
       "BasePath": "_content/CMS_WebAPI",
       "RelativePath": "Teacher/Avatars/Tho_a803950b.jpg",
       "AssetKind": "All",

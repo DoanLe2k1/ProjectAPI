@@ -3,12 +3,10 @@
     public class Transcript
     {
         public int TranscriptId { get; set; }
-        public int StudentId { get; set; }
-        public int SubjectId { get; set; }
-        public float FirstColumnScore { get; set; }
-        public float SecondColumnScore { get; set; }
-        public float ThirdColumnScore { get; set; }
-        public float FourthColumnScore { get; set; }
-        public float AvarageScore {  get; set; }
+        public double FirstColumnScore { get; set; }
+        public double SecondColumnScore { get; set; }
+        public double ThirdColumnScore { get; set; }
+        public double FourthColumnScore { get; set; }
+        public double AvarageScore {  get; set; }
     }
 }

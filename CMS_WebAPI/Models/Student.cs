@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.Identity.Client;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CMS_WebAPI.Models
@@ -17,5 +18,6 @@ namespace CMS_WebAPI.Models
         public string PictureURL { get; set; }
         public int SubjectId { get; set; }
         public int TranscriptId { get; set; }
+        public int ScoreTypeId { get; set; }
     }
 }

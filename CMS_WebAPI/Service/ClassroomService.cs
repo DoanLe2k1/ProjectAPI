@@ -68,5 +68,30 @@ namespace CMS_WebAPI.Service
                 _dbContext.SaveChanges();
             }
         }
+        public List<ClassroomInfo> GetClassroom()
+        {
+            var classroom = (from p in _dbContext.Classrooms
+                         join pm in _dbContext.Subjects on p.SubjectId equals pm.SubjectId
+                         join pd in _dbContext.Students on p.StudentId equals pd.StudentId
+                         join pf in _dbContext.Teachers on p.TeacherId equals pf.TeacherId
+                         select new ClassroomInfo()
+                         {
+                             FirstName = pd.FirstName,
+                             LastName = pd.LastName,
+                             SubjectName = pm.SubjectName,
+                             TeacherFirstName = pf.TeacherFirstName,
+                             TeacherLastName = pf.TeacherLastName,
+                             TeacherPhoneNumber = pf.TeacherPhoneNumber,
+                             ClassroomCode = p.ClassroomCode,
+                             ClassroomName = p.ClassroomName,
+                             SchoolYear = p.SchoolYear,
+                             Faculty = p.Faculty,
+                             NumberOfStudents = p.NumberOfStudents,
+                             Status = p.Status,
+                             Description = p.Description
+
+                         }).ToList();
+            return classroom;
+        }
     }
 }

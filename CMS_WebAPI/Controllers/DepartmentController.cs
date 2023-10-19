@@ -22,7 +22,7 @@ namespace CMS_WebAPI.Controllers
             var departments = await _departmentService.GetAllDepartments();
             return Ok(departments);
         }
-        [HttpGet("Search Subject")]
+        [HttpGet("Search Department")]
         public IActionResult SearchDepartments(string keyword)
         {
             var departments = _departmentService.SearchDepartments(keyword);
@@ -56,7 +56,7 @@ namespace CMS_WebAPI.Controllers
             }
         }
 
-        [HttpPut("Update Course"), Authorize(Roles = "Admin")]
+        [HttpPut("Update Department"), Authorize(Roles = "Admin")]
         public async Task<ActionResult> UpdateCourse(int departmentId, Department department)
         {
             if (departmentId != department.DepartmentId)

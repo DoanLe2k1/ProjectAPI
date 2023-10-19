@@ -3405,11 +3405,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\CMS_WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\CMS_WebAPI.csproj",
       "projectName": "CMS_WebAPI",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\CMS_WebAPI.csproj",
+      "projectPath": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\CMS_WebAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\GhiDanh_WebAPI\\CMS_WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

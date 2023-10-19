@@ -20,6 +20,7 @@ namespace CMS_WebAPI.Data
         public DbSet<Revenue> Revenues { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<CheckOut> Checkouts { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -37,11 +38,6 @@ namespace CMS_WebAPI.Data
                 .HasKey(p => p.DepartmentId);
             modelBuilder.Entity<Department>()
                 .Property(p => p.DepartmentId)
-                .ValueGeneratedNever();
-            modelBuilder.Entity<StudentScore>()
-                .HasKey(p => p.StudentId);
-            modelBuilder.Entity<StudentScore>()
-                .Property(p => p.StudentId)
                 .ValueGeneratedNever();
             modelBuilder.Entity<Subject>()
                 .HasKey(p => p.SubjectId);
@@ -83,7 +79,11 @@ namespace CMS_WebAPI.Data
             modelBuilder.Entity<Teacher>()
                     .Property(p => p.TeacherId)
                     .ValueGeneratedNever();
-
+            modelBuilder.Entity<CheckOut>()
+              .HasKey(p => p.CheckOutId);
+            modelBuilder.Entity<CheckOut>()
+                    .Property(p => p.CheckOutId)
+                    .ValueGeneratedNever();
         }
     }
 }

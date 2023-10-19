@@ -2,15 +2,16 @@
 {
     public class StudentScore
     {
-        public int StudentId { get; set; }
-        public int TranscriptId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string SubjectName { get; set; }
-        public float FirstColumnScore { get; set; }
-        public float SecondColumnScore { get; set; }
-        public float ThirdColumnScore { get; set; }
-        public float FourthColumnScore { get; set; }
-        public float AverageScore { get; set; }
+        public string ScoreName { get; set; }
+        public int Coefficient { get; set; }
+        public double FirstColumnScore { get; set; }
+        public double SecondColumnScore { get; set; }
+        public double ThirdColumnScore { get; set; }
+        public double FourthColumnScore { get; set; }
+        public double AverageScore { get; set; }
+        
     }
 }

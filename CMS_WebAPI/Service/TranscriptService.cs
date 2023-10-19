@@ -45,9 +45,7 @@ namespace CMS_WebAPI.Service
 
             return _dbContext.Transcripts
                 .Where(s =>
-                    s.TranscriptId.ToString().Contains(keyword) ||
-                    s.StudentId.ToString().Contains(keyword) ||
-                    s.SubjectId.ToString().Contains(keyword))
+                    s.TranscriptId.ToString().Contains(keyword))
                 .ToList();
         }
         public List<StudentScore> GetScore()
@@ -55,13 +53,14 @@ namespace CMS_WebAPI.Service
             var score = (from p in _dbContext.Students
                          join pm in _dbContext.Subjects on p.SubjectId equals pm.SubjectId
                          join pd in _dbContext.Transcripts on p.TranscriptId equals pd.TranscriptId
+                         join pe in _dbContext.ScoreTypes on p.ScoreTypeId equals pe.ScoreTypeId
                          select new StudentScore()
                          {
-                             StudentId = p.StudentId,
-                             TranscriptId = p.TranscriptId,
                              FirstName = p.FirstName,
                              LastName = p.LastName,
                              SubjectName = pm.SubjectName,
+                             ScoreName = pe.ScoreName,
+                             Coefficient = pe.Coefficient,
                              FirstColumnScore = pd.FirstColumnScore,
                              SecondColumnScore = pd.SecondColumnScore,
                              ThirdColumnScore = pd.ThirdColumnScore,

@@ -22,13 +22,6 @@ namespace CMS_WebAPI.Controllers
             _userService = userService;
         }
 
-        [HttpGet, Authorize]
-        public ActionResult<string> GetMe()
-        {
-            var userName = _userService.GetMyName();
-            return Ok(userName);
-        }
-
         [HttpPost("Register")]
         public async Task<ActionResult<User>> Register(UserDto request)
         {

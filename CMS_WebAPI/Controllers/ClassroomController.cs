@@ -22,13 +22,19 @@ namespace CMS_WebAPI.Controllers
             var classrooms = await _classroomService.GetAllClassrooms();
             return Ok(classrooms);
         }
+        [HttpGet]
+        [Route("Get Classroom Info")]
+        public IEnumerable<ClassroomInfo> GetClassroom()
+        {
+            return _classroomService.GetClassroom().ToList();
+        }
         [HttpGet("Search Classroom")]
         public IActionResult SearchClassrooms(string keyword)
         {
             var classrooms = _classroomService.SearchClassrooms(keyword);
             return Ok(classrooms);
         }
-        [HttpPost("Add Classroom"), Authorize(Roles = "Admin")]
+        [HttpPost("Add Classroom")]
         public async Task<ActionResult<Classroom>> AddCourse(Classroom classroom)
         {
             var add = await _classroomService.AddClassroom(classroom);
