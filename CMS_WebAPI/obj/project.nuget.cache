@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TD+JZT2ODYpreuT2McQZgFkDQxaihMGDCivQOEZqWgTCS1/4pNYI68qQQbFwMcybI6bRNeSEEs64hXUhL+ZvAQ==",
+  "dgSpecHash": "GjfbOpRNo0iGfF+09i2KRL45FQ/mMRqe/fijSaHZvtqgiO5lDHEr/Y3nUS4IDUJz0uu7Feg6VLdfSg1plJaf5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\CMS_WebAPI\\CMS_WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\freecouse\\Project\\ProjectAPI\\CMS_WebAPI\\CMS_WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

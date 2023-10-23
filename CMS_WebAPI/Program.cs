@@ -64,6 +64,7 @@ builder.Services.AddScoped<IRevenueService, RevenueService>();
 builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<ICheckOutService, CheckOutService>();
+builder.Services.AddScoped<IScheduleService, ScheduleService>();
 builder.Services.AddDbContext<CMS_WebAPIDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("GhiDanh"));
 });
