@@ -14,7 +14,7 @@ namespace CMS_WebAPI.Controllers
             _scheduleService = scheduleService;
         }
 
-        [HttpPost]
+        [HttpPost("Add Subject to Schedule")]
         public IActionResult AddSubjectToSchedule(int studentId, int subjectId)
         {
             try
@@ -33,7 +33,7 @@ namespace CMS_WebAPI.Controllers
             }
         }
 
-        [HttpGet("{studentId}")]
+        [HttpGet("Get Student's Schedule by Id")]
         public IActionResult GetSchedule(int studentId)
         {
             var schedule = _scheduleService.GetSchedule(studentId);

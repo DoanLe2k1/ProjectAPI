@@ -24,7 +24,6 @@ namespace CMS_WebAPI.Data
         public DbSet<Schedule> Schedules { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             /*modelBuilder.Entity<Account>()
                 .HasKey(p => p.Email);
             modelBuilder.Entity<Account>()
